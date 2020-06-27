@@ -16,6 +16,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
+<script type="text/javascript">
+	$(function () {
+		$(".globalFooter").load("layout/footer.html");
+	});
+</script>
+
 <body class="is-preload">
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -141,7 +147,8 @@
 		</div>
 
 		<!-- Footer -->
-
+		<div class="globalFooter"></div>
+		<link href="footer.html" rel="import" />
 
 	</div>
 
