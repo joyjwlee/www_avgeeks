@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
 <head>
@@ -13,7 +9,15 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!-- jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
+<script type="text/javascript">
+	$(function () {
+		$(".globalFooter").load("layout/footer.html");
+	});
+</script>
 
 <body class="is-preload">
 	<!-- Wrapper -->
@@ -139,27 +143,7 @@
 		</div>
 
 		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<section>
-					<h2>Follow</h2>
-					<ul class="icons">
-						<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
-						</li>
-						<li><a href="https://www.youtube.com/channel/UCeKEcQXbKzw97CKpx-9Bngw"
-								class="icon brands style2 fa-youtube"><span class="label">YouTube</span></a>
-						</li>
-						<li><a href="https://github.com/joyjwlee/j2" class="icon brands style2 fa-github"><span
-									class="label">GitHub</span></a></li>
-					</ul>
-				</section>
-				<ul class="copyright">
-					<li>Copyright &copy; 2020 Airbus X Boeing. All rights reserved</li>
-					<li>Website by: Jaewon Lee</li>
-					<li>Design: HTML5 UP</li>
-				</ul>
-			</div>
-		</footer>
+		<div class="globalFooter"></div>
 
 	</div>
 
