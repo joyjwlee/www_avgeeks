@@ -9,31 +9,22 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
     <noscript>
         <link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
+<script type="text/javascript">
+    $(function () {
+        $(".airbusHeader").load("airbusHeader.html");
+    });
+</script>
 
 <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
 
         <!-- Header -->
-        <header id="header">
-            <div class="inner">
-
-                <!-- Logo -->
-                <a href="../index.html" class="logo">
-                    <span class="symbol"><img src="../images/logo.svg" alt="" /></span><span class="title">Airbus X
-                        Boeing</span>
-                </a>
-
-                <!-- Nav -->
-                <nav>
-                    <ul>
-                        <li><a href="../airbus.html">Back to Airbus</a></li>
-                    </ul>
-                </nav>
-
-            </div>
-        </header>
+        <div class="airbusHeader"></div>
 
         <!-- Main -->
         <div id="main">
