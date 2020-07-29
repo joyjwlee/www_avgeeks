@@ -18,7 +18,7 @@ To view the site, [click here](https://www.airbusxboeing.ga/)
 ## Features 📋
 
 ⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS\
+⚡️ Valid HTML5 & CSS
 
 ## Tools Used 🛠️
 
