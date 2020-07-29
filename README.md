@@ -26,3 +26,9 @@ To view the site, [click here](https://www.airbusxboeing.ga/)
 - [<b>Netlify</b>](https://www.netlify.com/) - For site deployment.
 
 ## Websites Used (as Reference) 📖
+
+- https://makitweb.com/embed-jquery-html-page/
+- https://www.lifewire.com/include-html-file-in-another-3469529
+- https://www.youtube.com/watch?v=rDFxEALe0JA
+- https://www.lifewire.com/include-html-file-in-another-3469529
+- https://www.youtube.com/watch?v=ZQpWy9acrlI
